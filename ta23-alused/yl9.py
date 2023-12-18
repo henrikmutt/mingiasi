@@ -21,5 +21,5 @@ elif ab == ac or ab == bc or ac == bc:
 else:
     print("Eriküljeline kolmnurk")
 
-if ab < 0.1 or ac < 0.1 or bc < 0.1:
+if ab + ac < bc or ac + bc < ab or bc + ab < ac:
     print("Sellist kolmnurka pole olemas!")
